@@ -13,7 +13,7 @@ public class NoDuplicatesArray {
         int columns = scanner.nextInt();
         int[][] array = new int[rows][columns];
         Set<Integer> values = new HashSet<>();
-        System.out.println("Enter unique numbers for the array:");
+        System.out.println("Enter unique numbers for array:");
         for (int i = 0; i < rows; i++) {
             for (int j = 0; j < columns; ) {
                 System.out.printf("Enter element for position [%d][%d]: ", i, j);
